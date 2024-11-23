@@ -16,7 +16,7 @@ pipeline{
         stage('Deploy'){
             steps{
                 echo "this is a Deploy"
-                failure
+                failure ..
             }
         }
     }
